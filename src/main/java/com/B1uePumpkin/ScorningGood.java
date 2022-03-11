@@ -6,6 +6,14 @@ public class ScorningGood {
 //        jack.name="Jack";
 //        jack.math=98;
 //        jack.english=45;
-
+        Student andy=new Student("Andy");
+        Student s=new Student();
+        GraduateStudent jane=
+                new GraduateStudent("Jane",67,88,94);
+        jane.name="Jane";
+        jack.print();
+        andy.print();
+        s.print();
+        jane.print();
     }
 }
