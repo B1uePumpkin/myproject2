@@ -1,6 +1,6 @@
-package com.dai;
+package com.B1uePumpkin;
 
-public class Scorning {
+public class ScorningNG {
     public static void main(String[] args) {
         String name[]={"Andy","Nancy","Chris","Jhon","Frank"};
         int math[] ={98,87,76,65,54};
