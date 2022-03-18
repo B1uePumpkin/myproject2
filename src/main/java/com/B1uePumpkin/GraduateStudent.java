@@ -2,10 +2,7 @@ package com.B1uePumpkin;
 
 public class GraduateStudent extends Student{
     int thesis;
-    public GraduateStudent(String name,
-                           int math,
-                           int english,
-                           int thesis){
+    public GraduateStudent(String name, int math, int english, int thesis){
 //        this.name=name;
 //        this.math=math;
 //        this.english=english;
