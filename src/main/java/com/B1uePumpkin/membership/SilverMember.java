@@ -1,13 +1,18 @@
 package com.B1uePumpkin.membership;
 
 public class SilverMember extends Customer{
-    public SilverMember(String name,int total){
-        super(name, total);
+    public SilverMember(String id,int total){
+
+        super(id, total);
     }
 
     @Override
+    public float discount() {
+        off=200;
+        return super.discount();
+    }
+
     public void print() {
-        int discount=(total/1000)*200;
         super.print();
     }
 }
