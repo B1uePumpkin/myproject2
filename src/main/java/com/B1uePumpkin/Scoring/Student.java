@@ -1,4 +1,4 @@
-package com.B1uePumpkin;
+package com.B1uePumpkin.Scoring;
 
 public class Student {
 //    filed*3(區域變數)

@@ -1,6 +1,8 @@
-package com.B1uePumpkin;
+package com.B1uePumpkin.Scoring;
 
-public class GraduateStudent extends Student{
+import com.B1uePumpkin.Scoring.Student;
+
+public class GraduateStudent extends Student {
     int thesis;
     public GraduateStudent(String name, int math, int english, int thesis){
 //        this.name=name;

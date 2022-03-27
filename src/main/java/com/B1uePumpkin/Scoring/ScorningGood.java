@@ -1,4 +1,4 @@
-package com.B1uePumpkin;
+package com.B1uePumpkin.Scoring;
 
 public class ScorningGood {
     public static void main(String[] args) {
