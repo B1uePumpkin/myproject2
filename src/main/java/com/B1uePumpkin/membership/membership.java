@@ -9,6 +9,8 @@ public class membership {
         c2.print();
         GoldMember c3=new GoldMember("0003",5000);
         c3.print();
+        PlatinumMember c4=new PlatinumMember("0004",5000);
+        c4.print();
     }
 }
 
