@@ -11,8 +11,6 @@ public class Ticket {
     public Ticket(Station start, Station destination) {
         this.start = start;
         this.destination = destination;
-    }
-    public int price(){
         if (start==Station.TAIPEI_STATION){
             if (destination==Station.TAICHUNG_STATION){
                 price=600;
@@ -31,9 +29,10 @@ public class Ticket {
             }else{
                 price=1500;
             }
-        }return price;
+        }
     }
+
     public void print(){
-        System.out.println(start.name+"\t"+destination.name+"\t"+price());
+        System.out.println(start.name+"\t"+destination.name+"\t"+price);
     }
 }
