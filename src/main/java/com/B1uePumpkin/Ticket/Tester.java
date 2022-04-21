@@ -34,7 +34,6 @@ public class Tester {
                 destination = Station.KAOHSIUNG_STATION;
                 break;
         }
-        //
         System.out.println("Which kind of ticket? 1)Normal Ticket 2)Student ticket 3)Elder ticket");
         choice = Integer.parseInt(scanner.next());
         Ticket ticket = null;
