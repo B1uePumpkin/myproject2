@@ -19,7 +19,7 @@ public class membership {
         customers.add(new GoldMember("0004",2200));
 
         for (int i = 0; i < 4; i++) {
-            customers.get(i).print();
+//            customers.get(i).print();
         }
         for(Customer c: customers){
             c.print();

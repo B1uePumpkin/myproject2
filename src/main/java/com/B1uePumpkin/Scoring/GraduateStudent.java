@@ -2,7 +2,7 @@ package com.B1uePumpkin.Scoring;
 
 import com.B1uePumpkin.Scoring.Student;
 
-public class GraduateStudent extends Student {
+public class GraduateStudent extends Student implements Printable{
     int thesis;
     public GraduateStudent(String name, int math, int english, int thesis){
 //        this.name=name;

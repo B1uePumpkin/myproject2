@@ -6,6 +6,7 @@ import com.B1uePumpkin.membership.SilverMember;
 
 import java.util.ArrayList;
 
+// 修飾子(字)Modifier : public > default(package) > private > protected(子)
 public class Hello {
     public static void main(String[] args) {
         ArrayList<Customer>customers =new ArrayList<>();

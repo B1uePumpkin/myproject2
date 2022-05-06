@@ -1,6 +1,6 @@
 package com.B1uePumpkin.Scoring;
 
-public class Student {
+public class Student implements Printable{
 //    filed*3(區域變數)
 //    1)name
 //    2)math grade
