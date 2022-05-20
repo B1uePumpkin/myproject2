@@ -12,6 +12,7 @@ public class membership {
 //        GoldMember c3=new GoldMember("0003",5000);
 //        c3.print();
 
+// Graphical User Interface (GUI
         ArrayList<Customer> customers=new ArrayList<>();
         customers.add(new Customer("0001",1000));
         customers.add(new Customer("0002",800));
