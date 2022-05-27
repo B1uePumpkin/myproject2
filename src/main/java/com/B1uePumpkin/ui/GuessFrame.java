@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+//GUI test
 public class GuessFrame extends JFrame {
     //Field
     //Structure
