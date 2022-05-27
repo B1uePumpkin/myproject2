@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-//GUI test
+
 public class GuessFrame extends JFrame {
     //Field
     //Structure
@@ -14,16 +14,27 @@ public class GuessFrame extends JFrame {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setVisible(true);
 
-        JButton button = new JButton("Hi");
+        int answer = 5;
+
+        JButton button = new JButton("GUESS!");
         JLabel label=new JLabel("zzz...");
+        JTextField number = new JTextField(8);
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello!");
-                label.setText("Hello!");
+                int num=Integer.parseInt(number.getText());
+                System.out.println(num);
+                if (num<answer){
+                    label.setText("bigger!");
+                }else if (num>answer){
+                    label.setText("smaller!");
+                }else{
+                    label.setText("BINGO!!!the number is : "+answer);
+                }
             }
         });
         setLayout(new FlowLayout());
+        add(number);
         add(button);
         add(label);
         setVisible(true);
